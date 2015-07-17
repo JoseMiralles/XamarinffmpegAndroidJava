@@ -1,0 +1,4 @@
+C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\bin\Debug\ffmpegAndroidJava.dll
+C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\bin\Debug\ffmpegAndroidJava.pdb
+C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\obj\Debug\ffmpegAndroidJava.dll
+C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\obj\Debug\ffmpegAndroidJava.pdb

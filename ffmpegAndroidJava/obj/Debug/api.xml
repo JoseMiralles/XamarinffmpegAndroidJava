@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.github.hiteshsondhi88.libffmpeg">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ArmArchHelper" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.github.hiteshsondhi88.libffmpeg.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.github.hiteshsondhi88.libffmpeg&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="deprecated" final="true" name="PACKAGE_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.github.hiteshsondhi88.libffmpeg&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="25" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;0.2.5&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CommandResult" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.github.hiteshsondhi88.libffmpeg.CpuArch&gt;" final="true" name="CpuArch" static="false" visibility="">
+<field deprecated="not deprecated" final="true" name="ARMv7" static="true" transient="false" type="com.github.hiteshsondhi88.libffmpeg.CpuArch" type-generic-aware="com.github.hiteshsondhi88.libffmpeg.CpuArch" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ARMv7_NEON" static="true" transient="false" type="com.github.hiteshsondhi88.libffmpeg.CpuArch" type-generic-aware="com.github.hiteshsondhi88.libffmpeg.CpuArch" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NONE" static="true" transient="false" type="com.github.hiteshsondhi88.libffmpeg.CpuArch" type-generic-aware="com.github.hiteshsondhi88.libffmpeg.CpuArch" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="x86" static="true" transient="false" type="com.github.hiteshsondhi88.libffmpeg.CpuArch" type-generic-aware="com.github.hiteshsondhi88.libffmpeg.CpuArch" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CpuArchHelper" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExecuteBinaryResponseHandler" static="false" visibility="public">
+<implements name="com.github.hiteshsondhi88.libffmpeg.FFmpegExecuteResponseHandler" name-generic-aware="com.github.hiteshsondhi88.libffmpeg.FFmpegExecuteResponseHandler">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ExecuteBinaryResponseHandler" static="false" type="com.github.hiteshsondhi88.libffmpeg.ExecuteBinaryResponseHandler" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onFailure" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onFinish" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onProgress" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FFmpeg" static="false" visibility="public">
+<implements name="com.github.hiteshsondhi88.libffmpeg.FFmpegInterface" name-generic-aware="com.github.hiteshsondhi88.libffmpeg.FFmpegInterface">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="execute" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="com.github.hiteshsondhi88.libffmpeg.FFmpegExecuteResponseHandler">
+</parameter>
+<exception name="FFmpegCommandAlreadyRunningException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="execute" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="com.github.hiteshsondhi88.libffmpeg.FFmpegExecuteResponseHandler">
+</parameter>
+<exception name="FFmpegCommandAlreadyRunningException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDeviceFFmpegVersion" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="FFmpegCommandAlreadyRunningException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.github.hiteshsondhi88.libffmpeg.FFmpeg" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLibraryFFmpegVersion" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isFFmpegCommandRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="killRunningProcesses" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="loadBinary" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.github.hiteshsondhi88.libffmpeg.FFmpegLoadBinaryResponseHandler">
+</parameter>
+<exception name="FFmpegNotSupportedException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTimeout" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FFmpeg.1" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.Void, java.lang.String, com.github.hiteshsondhi88.libffmpeg.CommandResult&gt;" final="false" name="FFmpegExecuteAsyncTask" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="doInBackground" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onProgressUpdate" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String...">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="FFmpegExecuteResponseHandler" static="false" visibility="public">
+<implements name="com.github.hiteshsondhi88.libffmpeg.ResponseHandler" name-generic-aware="com.github.hiteshsondhi88.libffmpeg.ResponseHandler">
+</implements>
+<method abstract="true" deprecated="not deprecated" final="false" name="onFailure" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onProgress" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="FFmpegInterface" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="execute" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="com.github.hiteshsondhi88.libffmpeg.FFmpegExecuteResponseHandler">
+</parameter>
+<exception name="FFmpegCommandAlreadyRunningException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="execute" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="com.github.hiteshsondhi88.libffmpeg.FFmpegExecuteResponseHandler">
+</parameter>
+<exception name="FFmpegCommandAlreadyRunningException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getDeviceFFmpegVersion" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="FFmpegCommandAlreadyRunningException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getLibraryFFmpegVersion" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="isFFmpegCommandRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="killRunningProcesses" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="loadBinary" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.github.hiteshsondhi88.libffmpeg.FFmpegLoadBinaryResponseHandler">
+</parameter>
+<exception name="FFmpegNotSupportedException" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setTimeout" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="FFmpegLoadBinaryResponseHandler" static="false" visibility="public">
+<implements name="com.github.hiteshsondhi88.libffmpeg.ResponseHandler" name-generic-aware="com.github.hiteshsondhi88.libffmpeg.ResponseHandler">
+</implements>
+<method abstract="true" deprecated="not deprecated" final="false" name="onFailure" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.Void, java.lang.Void, java.lang.Boolean&gt;" final="false" name="FFmpegLoadLibraryAsyncTask" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="doInBackground" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="doInBackground" native="false" return="java.lang.Boolean" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Void...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onPostExecute" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Boolean">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FileUtils" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LoadBinaryResponseHandler" static="false" visibility="public">
+<implements name="com.github.hiteshsondhi88.libffmpeg.FFmpegLoadBinaryResponseHandler" name-generic-aware="com.github.hiteshsondhi88.libffmpeg.FFmpegLoadBinaryResponseHandler">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="LoadBinaryResponseHandler" static="false" type="com.github.hiteshsondhi88.libffmpeg.LoadBinaryResponseHandler" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onFailure" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onFinish" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Log" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ResponseHandler" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onFinish" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ShellCommand" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Util" static="false" visibility=""/>
+</package>
+<package name="com.github.hiteshsondhi88.libffmpeg.exceptions">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="FFmpegCommandAlreadyRunningException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="FFmpegCommandAlreadyRunningException" static="false" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="FFmpegNotSupportedException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="FFmpegNotSupportedException" static="false" type="com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+</class>
+</package>
+</api>
