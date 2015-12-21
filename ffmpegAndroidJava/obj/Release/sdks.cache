@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sdk>
+  <AndroidApiLevel>16</AndroidApiLevel>
+  <AndroidApiLevelName>16</AndroidApiLevelName>
+  <AndroidNdkPath>C:\Users\gerardo\Documents\Android\ndk\android-ndk-r8d</AndroidNdkPath>
+  <AndroidSdkBuildToolsPath>C:\Users\gerardo\AppData\Local\Android\android-sdk\build-tools\21.1.1</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>C:\Users\gerardo\AppData\Local\Android\android-sdk\build-tools\21.1.1</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkPath>C:\Users\gerardo\AppData\Local\Android\android-sdk</AndroidSdkPath>
+  <JavaSdkPath>C:\Program Files (x86)\Java\jdk1.6.0_39</JavaSdkPath>
+  <MonoAndroidBinPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidBinPath>
+  <MonoAndroidToolsPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidToolsPath>
+  <ReferenceAssemblyPaths>
+    <ReferenceAssemblyPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\</ReferenceAssemblyPath>
+  </ReferenceAssemblyPaths>
+  <TargetFrameworkVersion>v4.1</TargetFrameworkVersion>
+  <ZipAlignPath>C:\Users\gerardo\AppData\Local\Android\android-sdk\build-tools\21.1.1</ZipAlignPath>
+  <MonoAndroidIncludePath />
+  <SupportedApiLevel>16</SupportedApiLevel>
+  <AndroidSequencePointsMode>None</AndroidSequencePointsMode>
+</Sdk>

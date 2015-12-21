@@ -2,3 +2,12 @@ C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\bin\Release\ffmpe
 C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\bin\Release\ffmpegAndroidJava.pdb
 C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\obj\Release\ffmpegAndroidJava.dll
 C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\obj\Release\ffmpegAndroidJava.pdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\bin\Release\ffmpegAndroidJava.dll
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\bin\Release\ffmpegAndroidJava.pdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Release\ffmpegAndroidJava.dll
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Release\ffmpegAndroidJava.pdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Release\ffmpegAndroidJava.csprojResolveAssemblyReference.cache
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Release\ffmpegAndroidJava.dll.mdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\bin\Release\ffmpegAndroidJava.dll.mdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Release\ffmpegAndroidJava.dll.mdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\bin\Release\ffmpegAndroidJava.dll.mdb

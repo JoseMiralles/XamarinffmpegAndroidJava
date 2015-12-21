@@ -127,7 +127,7 @@
 </parameter>
 </method>
 </interface>
-<interface abstract="true" deprecated="not deprecated" final="false" name="FFmpegInterface" static="false" visibility="">
+<interface abstract="true" deprecated="not deprecated" final="false" name="FFmpegInterface" static="false" visibility="public">
 <method abstract="true" deprecated="not deprecated" final="false" name="execute" native="false" return="void" static="false" synchronized="false" visibility="public">
 <parameter name="p0" type="java.lang.String">
 </parameter>
@@ -205,7 +205,7 @@
 </method>
 </class>
 <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Log" static="false" visibility=""/>
-<interface abstract="true" deprecated="not deprecated" final="false" name="ResponseHandler" static="false" visibility="">
+<interface abstract="true" deprecated="not deprecated" final="false" name="ResponseHandler" static="false" visibility="public">
 <method abstract="true" deprecated="not deprecated" final="false" name="onFinish" native="false" return="void" static="false" synchronized="false" visibility="public">
 </method>
 <method abstract="true" deprecated="not deprecated" final="false" name="onStart" native="false" return="void" static="false" synchronized="false" visibility="public">

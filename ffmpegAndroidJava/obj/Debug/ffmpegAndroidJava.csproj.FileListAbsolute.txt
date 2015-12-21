@@ -2,3 +2,8 @@ C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\bin\Debug\ffmpegA
 C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\bin\Debug\ffmpegAndroidJava.pdb
 C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\obj\Debug\ffmpegAndroidJava.dll
 C:\Users\gerardo\Documents\ffmpegAndroidJava\ffmpegAndroidJava\obj\Debug\ffmpegAndroidJava.pdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Debug\ffmpegAndroidJava.csprojResolveAssemblyReference.cache
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\bin\Debug\ffmpegAndroidJava.dll
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\bin\Debug\ffmpegAndroidJava.pdb
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Debug\ffmpegAndroidJava.dll
+C:\Users\gerardo\Dropbox\ffmpegAndroidJava\ffmpegAndroidJava\obj\Debug\ffmpegAndroidJava.pdb

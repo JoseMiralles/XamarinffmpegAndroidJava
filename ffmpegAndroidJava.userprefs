@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="ffmpegAndroidJava\ffmpegAndroidJava.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.[Tablet]7 Nexus(KitKat)" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.FAAZCY36W159" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ffmpegAndroidJava\obj\Debug\api.xml">
     <Files>
-      <File FileName="ffmpegAndroidJava\obj\Debug\api.xml" Line="136" Column="174" />
+      <File FileName="ffmpegAndroidJava\obj\Debug\generated\src\Com.Github.Hiteshsondhi88.Libffmpeg.IFFmpegExecuteResponseHandler.cs" Line="9" Column="103" />
+      <File FileName="ffmpegAndroidJava\obj\Debug\api.xml" Line="130" Column="126" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
